@@ -10,14 +10,14 @@ A structured **60-problem Dynamic Programming roadmap**, progressing from basic 
 
 | # | Problem | Main Concept |
 |---:|---|---|
-| 1 | Fibonacci Number | Basic DP |
-| 2 | Climbing Stairs | 1D DP |
-| 3 | Min Cost Climbing Stairs | 1D DP + minimum |
-| 4 | House Robber | Take / Not Take |
-| 5 | House Robber II | Circular DP |
-| 6 | N-th Tribonacci Number | 1D DP |
-| 7 | Decode Ways | DP + string |
-| 8 | Maximum Subarray | DP / Kadane |
+| 0 | Fibonacci Number | Basic DP |
+| 1 | Climbing Stairs | 1D DP |
+| 2 | Min Cost Climbing Stairs | 1D DP + minimum |
+| 3 | House Robber | Take / Not Take |
+| 4 | House Robber II | Circular DP |
+| 5 | N-th Tribonacci Number | 1D DP |
+| 6 | Decode Ways | DP + string |
+| 7 | Maximum Subarray | DP / Kadane |
 
 ### ⭐ Must-master
 
@@ -31,12 +31,12 @@ A structured **60-problem Dynamic Programming roadmap**, progressing from basic 
 
 | # | Problem | Main Concept |
 |---:|---|---|
-| 9 | Unique Paths | Grid DP |
-| 10 | Unique Paths II | Obstacles |
-| 11 | Minimum Path Sum | Min-cost grid |
-| 12 | Triangle | Bottom-up DP |
-| 13 | Maximum Path Sum in Matrix | Multiple directions |
-| 14 | Dungeon Game | Reverse DP |
+| 8 | Unique Paths | Grid DP |
+| 9 | Unique Paths II | Obstacles |
+| 10 | Minimum Path Sum | Min-cost grid |
+| 11 | Triangle | Bottom-up DP |
+| 12 | Maximum Path Sum in Matrix | Multiple directions |
+| 13 | Dungeon Game | Reverse DP |
 
 ### ⭐ Must-master
 
@@ -48,19 +48,19 @@ A structured **60-problem Dynamic Programming roadmap**, progressing from basic 
 
 This is **extremely important for interviews**.
 
-**Focus:**  
+**Focus:**
 > "Take it or don't take it"
 
 | # | Problem | Main Concept |
 |---:|---|---|
-| 15 | 0/1 Knapsack | Classic knapsack |
-| 16 | Subset Sum | Boolean DP |
-| 17 | Partition Equal Subset Sum | Subset DP |
-| 18 | Target Sum | Knapsack transformation |
-| 19 | Coin Change | Unbounded knapsack |
-| 20 | Coin Change II | Counting combinations |
-| 21 | Combination Sum IV | Counting permutations |
-| 22 | Last Stone Weight II | Knapsack transformation |
+| 14 | 0/1 Knapsack | Classic knapsack |
+| 15 | Subset Sum | Boolean DP |
+| 16 | Partition Equal Subset Sum | Subset DP |
+| 17 | Target Sum | Knapsack transformation |
+| 18 | Coin Change | Unbounded knapsack |
+| 19 | Coin Change II | Counting combinations |
+| 20 | Combination Sum IV | Counting permutations |
+| 21 | Last Stone Weight II | Knapsack transformation |
 
 ### ⭐ Must-master
 
@@ -76,14 +76,14 @@ If you understand these, a huge number of DP problems become easier.
 
 | # | Problem | Main Concept |
 |---:|---|---|
-| 23 | Longest Common Subsequence | 2D string DP |
-| 24 | Longest Palindromic Subsequence | LCS / interval DP |
-| 25 | Edit Distance | Insert / Delete / Replace |
-| 26 | Delete Operation for Two Strings | LCS |
-| 27 | Distinct Subsequences | Counting DP |
-| 28 | Interleaving String | 2D state |
-| 29 | Word Break | String + DP |
-| 30 | Palindrome Partitioning II | Partition DP |
+| 22 | Longest Common Subsequence | 2D string DP |
+| 23 | Longest Palindromic Subsequence | LCS / interval DP |
+| 24 | Edit Distance | Insert / Delete / Replace |
+| 25 | Delete Operation for Two Strings | LCS |
+| 26 | Distinct Subsequences | Counting DP |
+| 27 | Interleaving String | 2D state |
+| 28 | Word Break | String + DP |
+| 29 | Palindrome Partitioning II | Partition DP |
 
 ### ⭐ Must-master
 
@@ -94,17 +94,16 @@ If you understand these, a huge number of DP problems become easier.
 ## 🟠 Level 5 — LIS / Subsequence DP
 
 **Focus:**
-
 > "What is the best answer ending at index `i`?"
 
 | # | Problem | Main Concept |
 |---:|---|---|
-| 31 | Longest Increasing Subsequence | Classic LIS |
-| 32 | Number of Longest Increasing Subsequence | LIS + counting |
-| 33 | Longest Divisible Subset | LIS pattern |
-| 34 | Maximum Length of Pair Chain | LIS |
-| 35 | Russian Doll Envelopes | 2D LIS |
-| 36 | Longest String Chain | Subsequence DP |
+| 30 | Longest Increasing Subsequence | Classic LIS |
+| 31 | Number of Longest Increasing Subsequence | LIS + counting |
+| 32 | Longest Divisible Subset | LIS pattern |
+| 33 | Maximum Length of Pair Chain | LIS |
+| 34 | Russian Doll Envelopes | 2D LIS |
+| 35 | Longest String Chain | Subsequence DP |
 
 ### ⭐ Must-master
 
@@ -117,17 +116,16 @@ If you understand these, a huge number of DP problems become easier.
 This is where DP starts becoming **significantly harder**.
 
 **Think:**
-
 > "What happens if I split the interval at position `k`?"
 
 | # | Problem | Main Concept |
 |---:|---|---|
-| 37 | Burst Balloons | Interval DP |
-| 38 | Matrix Chain Multiplication | Partition DP |
-| 39 | Minimum Cost to Cut a Stick | Interval partition |
-| 40 | Palindrome Partitioning | Interval DP |
-| 41 | Strange Printer | Interval DP |
-| 42 | Optimal BST | Interval DP |
+| 36 | Burst Balloons | Interval DP |
+| 37 | Matrix Chain Multiplication | Partition DP |
+| 38 | Minimum Cost to Cut a Stick | Interval partition |
+| 39 | Palindrome Partitioning | Interval DP |
+| 40 | Strange Printer | Interval DP |
+| 41 | Optimal BST | Interval DP |
 
 ### ⭐ Must-master
 
@@ -141,14 +139,14 @@ These are excellent for **hard interviews**.
 
 | # | Problem | Main Concept |
 |---:|---|---|
-| 43 | Best Time to Buy and Sell Stock with Cooldown | State-machine DP |
-| 44 | Best Time to Buy and Sell Stock III | State-machine DP |
-| 45 | Best Time to Buy and Sell Stock IV | K transactions |
-| 46 | Regular Expression Matching | String DP |
-| 47 | Wildcard Matching | String DP |
-| 48 | Minimum Falling Path Sum II | Optimized DP |
-| 49 | Profitable Schemes | Multi-dimensional DP |
-| 50 | Tallest Billboard | Difference-state DP |
+| 42 | Best Time to Buy and Sell Stock with Cooldown | State-machine DP |
+| 43 | Best Time to Buy and Sell Stock III | State-machine DP |
+| 44 | Best Time to Buy and Sell Stock IV | K transactions |
+| 45 | Regular Expression Matching | String DP |
+| 46 | Wildcard Matching | String DP |
+| 47 | Minimum Falling Path Sum II | Optimized DP |
+| 48 | Profitable Schemes | Multi-dimensional DP |
+| 49 | Tallest Billboard | Difference-state DP |
 
 ---
 
@@ -158,16 +156,16 @@ These are excellent for **hard interviews**.
 
 | # | Problem | Pattern |
 |---:|---|---|
-| 51 | Cherry Pickup | 3D DP |
-| 52 | Cherry Pickup II | 3D grid DP |
-| 53 | Paint House III | Multi-dimensional DP |
-| 54 | Scramble String | Interval + string DP |
-| 55 | Minimum Difficulty of a Job Schedule | Partition DP |
-| 56 | Number of Ways to Wear Different Hats | Bitmask DP |
-| 57 | Smallest Sufficient Team | Bitmask DP |
-| 58 | Travelling Salesman Problem | Bitmask DP |
-| 59 | Digit DP Problems | Digit DP |
-| 60 | Tree DP Problems | DP on trees |
+| 50 | Cherry Pickup | 3D DP |
+| 51 | Cherry Pickup II | 3D grid DP |
+| 52 | Paint House III | Multi-dimensional DP |
+| 53 | Scramble String | Interval + string DP |
+| 54 | Minimum Difficulty of a Job Schedule | Partition DP |
+| 55 | Number of Ways to Wear Different Hats | Bitmask DP |
+| 56 | Smallest Sufficient Team | Bitmask DP |
+| 57 | Travelling Salesman Problem | Bitmask DP |
+| 58 | Digit DP Problems | Digit DP |
+| 59 | Tree DP Problems | DP on trees |
 
 ---
 
@@ -270,20 +268,23 @@ If you have limited time, prioritize these:
 
 ---
 
-# Tip for mastering Dynamic Programming
+# Tip for Mastering Dynamic Programming
 
-Firstly master **recursion**, all these problem are first solved using recursion then memoization is applied.
-If you know how to write recursive solution then DP is just a piece of cake.
+Firstly master **recursion**, all these problems are first solved using recursion and then memoization is applied.
+
+If you know how to write a recursive solution, then DP is just a piece of cake.
 
 For every problem:
 
 ```text
 Write recursive solution
   ↓
-Apply Memoization by recognising states.
+Apply Memoization by recognising states
   ↓
-Try to write Tabulation method.
+Try to write Tabulation method
   ↓
-If ok try to further optimize space(can easily be done in 1D DP)
+If okay, try to further optimize space
+  (can easily be done in 1D DP)
 ```
-Although this repo contain only recursive+memoised solution. In future I will upload the same problems with just tabulation apporach.
+
+Although this repo contains only **recursive + memoized solutions**, in the future I will upload the same problems using **only the tabulation approach**.
