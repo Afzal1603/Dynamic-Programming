@@ -270,21 +270,20 @@ If you have limited time, prioritize these:
 
 ---
 
-# 🏆 Goal
+# Tip for mastering Dynamic Programming
 
-The goal is **not just to memorize solutions**.
+Firstly master **recursion**, all these problem are first solved using recursion then memoization is applied.
+If you know how to write recursive solution then DP is just a piece of cake.
 
-For every problem, learn to identify:
+For every problem:
 
 ```text
-1. What is the state?
-2. What does dp[i] / dp[i][j] mean?
-3. What are the choices?
-4. What is the recurrence?
-5. What are the base cases?
-6. What is the direction of computation?
-7. Can memoization be converted to tabulation?
-8. Can the space complexity be optimized?
+Write recursive solution
+  ↓
+Apply Memoization by recognising states.
+  ↓
+Try to write Tabulation method.
+  ↓
+If ok try to further optimize space(can easily be done in 1D DP)
 ```
-
-Once you can answer these questions consistently, you are learning **DP patterns**, not individual problems.
+Although this repo contain only recursive+memoised solution. In future I will upload the same problems with just tabulation apporach.
